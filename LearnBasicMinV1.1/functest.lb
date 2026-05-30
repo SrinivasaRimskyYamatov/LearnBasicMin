@@ -1,0 +1,7 @@
+function main()
+    x = add(5)
+    print x
+end
+function add(a)
+    return a + 10
+end

@@ -1,0 +1,10 @@
+function main(a)
+    var x = 10
+    var y = rand(1,10)
+    print "start"
+    if(x > 5)then
+        print x + y
+    else
+        print 0
+    end
+end

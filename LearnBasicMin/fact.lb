@@ -1,0 +1,11 @@
+function main()
+    var x = 0
+    x = fact(5)
+    print x
+end
+function fact(n)
+    if(n < 1)then
+        return 1
+    end
+    return n * fact(n - 1)
+end

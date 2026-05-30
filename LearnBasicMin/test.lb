@@ -1,0 +1,6 @@
+function main()
+    var x = 0
+    window.new(x,500,500)
+    setcolor(x,0,0,0)
+    draw.line(x,0,0,100,100)
+end
