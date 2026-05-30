@@ -1,0 +1,11 @@
+function main()
+    var w=0
+    window.new(w,300,300)
+    window.name(w,"Before")
+    setcolor(w,200,0,0)
+    draw.circle(w,150,150,30)
+    draw.tri(w,0,0,30,0,30,30)
+    wait 1000
+    draw.fill(w,150,150)
+    window.name(w,"After")
+end

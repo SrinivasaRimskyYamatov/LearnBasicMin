@@ -1,0 +1,12 @@
+function main()
+    var w = 0
+    var k = 0
+    window.new(w,300,300)
+    window.name(w,"キー入力")
+    draw.text(w,0,10,"キーを入力してください")
+    while(1)
+        window.getkey(w,k)
+        print k
+        wait 100
+    end
+end

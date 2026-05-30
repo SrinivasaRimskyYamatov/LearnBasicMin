@@ -1,0 +1,6 @@
+function main()
+    var w = 0
+    window.new(w,300,300)
+    window.name(w,"画像テスト")
+    draw.image(w,"test.png",0,0,200,200)
+end
