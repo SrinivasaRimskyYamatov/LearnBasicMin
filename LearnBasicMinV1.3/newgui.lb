@@ -1,0 +1,9 @@
+function main()
+    var w=0
+    window.new(w,300,300)
+    window.name(w,"WindowTest")
+    setcolor(w,200,0,0)
+    draw.circle(w,150,150,30)
+    draw.tri(w,0,0,30,0,30,30)
+    draw.fill(w,150,150)
+end

@@ -1,0 +1,38 @@
+function main()
+    var x = 0
+    window.new(x,500,500)
+    setcolor(x,0,0,0)
+    draw.line(x,0,0,100,100)
+    draw.line(x,0,100,100,0)
+    setcolor(x,200,0,0)
+    draw.box(x,0,0,100,100)
+    var y = 0
+    window.new(y,500,500)
+    setcolor(y,0,0,0)
+    draw.line(y,0,0,100,100)
+    draw.line(y,0,100,100,0)
+    setcolor(y,0,0,200)
+    draw.box(y,0,0,100,100)
+    var z = 0
+    window.new(z,500,500)
+    setcolor(z,0,0,0)
+    draw.box(z,0,0,100,100)
+    var a = 100000
+    while(a > 0)
+        a = a - 1
+        print a
+    end
+    window.delete(x)
+    a = 100000
+    while(a > 0)
+        a = a - 1
+        print a
+    end
+    window.delete(y)
+    a = 100000
+    while(a > 0)
+        a = a - 1
+        print a
+    end
+    window.delete(z)
+end
