@@ -1,0 +1,13 @@
+function main()
+    var x = 0
+    var y = 0
+    input y
+    x = fact(y)
+    println x
+end
+function fact(n)
+    if(n < 1)then
+        return 1
+    end
+    return n * fact(n - 1)
+end
