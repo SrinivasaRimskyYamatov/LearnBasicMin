@@ -1,0 +1,8 @@
+function main()
+    dim.local x[5]=[0,1,2,3,4]
+    println x[0]
+    println x[1]
+    println x[2]
+    println x[3]
+    println x[4]
+end

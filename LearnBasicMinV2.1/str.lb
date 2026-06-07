@@ -1,0 +1,6 @@
+function main()
+    let.local x = "String"
+    let.local y = 10
+    println x
+    println y
+end
